@@ -18,10 +18,10 @@
 # inherit from common v4xx
 -include device/lge/v4xx-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := v490,e8,e8lte
+TARGET_OTA_ASSERT_DEVICE := v496,t8,t8lte
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_e8lte_defconfig
+TARGET_KERNEL_CONFIG := lineageos_t8lte_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/v490/BoardConfigVendor.mk
+-include vendor/lge/v496/BoardConfigVendor.mk
